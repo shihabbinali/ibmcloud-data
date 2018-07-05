@@ -125,7 +125,7 @@
         $.ajax({
             type: "GET",
             dataType: "jsonp",
-            url: "https://28c2f7fb-c3de-45ee-b395-25ac046a16c9-bluemix.cloudant.com/iotp_3fz3rl_default_2018-w26/_design/iotp/_view/by-deviceId?limit=10&skip=30",
+            url: "https://28c2f7fb-c3de-45ee-b395-25ac046a16c9-bluemix.cloudant.com/iotp_3fz3rl_default_2018-w26/_design/iotp/_view/by-deviceId?limit=30",
             success: function(data){
                 var data_table = '';
                 $.each(data.rows, function (key, value) {
